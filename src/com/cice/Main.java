@@ -1,10 +1,13 @@
 package com.cice;
 
 import com.cice.coches.Coche;
+import com.cice.cuenta.Contador;
 
 public class Main {
 
     public static void main(String[] args) {
+
+        int importe = 0;
 
         Coche coche = new Coche();
         coche.setPotencia(20);
@@ -33,6 +36,16 @@ public class Main {
         //System.out.println(coche);
         //System.out.println(coche2);
         //System.out.println(coche3);
+
+        Contador contador = new Contador();
+        contador.setCuenta(0);
+
+        contador.incrementar(5);
+        contador.getCuenta();
+        contador.setCuenta();
+
+        contador.decrementar(2);
+
 
     }
 
