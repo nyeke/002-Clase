@@ -19,8 +19,8 @@ public class Contador {
 
     //Get Set
 
-    public void setCuenta(int cuentaDada){
-        cuenta=cuentaDada;
+    public void setCuenta(int cuenta){
+        this.cuenta = cuenta;
     }
 
     public int getCuenta(){
