@@ -1,5 +1,6 @@
 package com.cice;
 
+import com.cice.animal.Animal;
 import com.cice.coches.Coche;
 import com.cice.cuenta.Contador;
 
@@ -7,14 +8,14 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Animal animal1 = new Animal();
-        Animal animal = new Animal("Podenco");
+        Animal animal = new Animal();
+        Animal animal1 = new Animal("Podenco");
         Animal animal2 = new Animal("Carlino",5);
 
         System.out.println(animal.getRaza());
         System.out.println(animal1.getRaza());
-        System.out.println(animal2.getRaza());
-
+        System.out.print(animal2.getRaza());
+        System.out.print(" con " + animal2.getNumeroPatas() + " patas");
 
         int importe = 0;
 

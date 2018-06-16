@@ -1,23 +1,20 @@
-package com.cice;
+package com.cice.animal;
 
 public class Animal {
 
-
     private String raza;
-    private Integer numeroPatas;
+    private int numeroPatas;
+
+    public Animal(){}
 
     public Animal(String animal){
         this.raza = animal;
     }
 
-    public Animal(String raza, Integer numeroPatas){
+    public Animal(String raza, int numeroPatas){
         super();
         this.raza = raza;
         this.numeroPatas = numeroPatas;
-    }
-
-    public Animal(){
-
     }
 
     public String getRaza(){
@@ -27,5 +24,11 @@ public class Animal {
     public void setRaza(String raza){
         this.raza = raza;
     }
+
+    public int getNumeroPatas(){
+        return numeroPatas;
+    }
+
+
 
 }
