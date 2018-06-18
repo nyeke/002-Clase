@@ -17,6 +17,7 @@ public class Main {
                 case 'o':
                 case 'u':
                     numVocales++;
+                    break;
                 default:
                     continue;
             }
